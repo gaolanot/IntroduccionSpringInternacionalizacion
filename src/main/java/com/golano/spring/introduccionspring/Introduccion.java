@@ -28,6 +28,10 @@ public class Introduccion {
         System.out.println(msg_en_text);
         System.out.println(msg_es_title);
         System.out.println(msg_es_text);
+        System.out.println(ctx.getMessage("greeting",
+                           new Object[] {"Andres Olano","Colombia"},
+                           Locale.ENGLISH));
+        saluda.saludarMensaje("Andres Olano", "Colombia");
         ctx.close();
     }    
 }

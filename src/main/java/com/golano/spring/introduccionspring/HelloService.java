@@ -12,4 +12,5 @@ package com.golano.spring.introduccionspring;
 public interface HelloService {
     //Metodo saludar del servicio para el ejemplo
     void saludar();
+    void saludarMensaje(String nombre, String pais);
 }
